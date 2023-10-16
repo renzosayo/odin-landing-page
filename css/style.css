@@ -24,6 +24,7 @@ a {
     justify-content: space-around;
     background-color: #1f2937;
     padding: 8px;
+    font: 18px;
 }
 
 .footer {
@@ -34,9 +35,17 @@ a {
     display: flex;
     align-items: center;
     gap: 16px;
+    font: 18px;
 }
 
 .logo {
     font-size: 24px;
     color: #f9faf8;
+}
+
+.main-one {
+    display: flex;
+    justify-content: space-around;
+    background-color: #1f2937;
+    color: #e5e7eb;
 }
