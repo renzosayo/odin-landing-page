@@ -45,7 +45,59 @@ a {
 
 .main-one {
     display: flex;
-    justify-content: space-around;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
     background-color: #1f2937;
     color: #e5e7eb;
+    gap: 16px;
+}
+
+.blue-button {
+    background-color: #3882f6;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+}
+
+.img,
+.to-left {
+    height: 200px;
+    width: 400px;
+    padding: 9px;
+}
+
+.to-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 8px;
+}
+
+.to-left h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.img {
+    background-color: grey;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-two {
+    flex: 1;
+}
+
+.main-three {
+    flex: 1;
+}
+
+.main-four {
+    flex: 1;
 }
