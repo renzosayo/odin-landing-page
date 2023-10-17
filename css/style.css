@@ -103,8 +103,8 @@ a {
 
 .pairs  {
     display: flex;
-    gap: 16px;
-    justify-content: start;
+    gap: 32px;
+    justify-content: space-evenly;
 }
 
 .image-pair {
